@@ -1,0 +1,22 @@
+@import "../../../scss/variables.scss";
+.mainNavlink{
+    font-size: 28px;
+	font-weight:500;
+	line-height: 21px;
+	// font-family: "Roboto";
+	font-style: normal;
+    color: $header-btn!important;
+}
+
+.text-end{
+	font-size:16px;
+	font-weight:500;
+	line-height:21p;
+	color:$header-btn;
+	font-family:Roboto;
+	font-style:normal;
+}
+.headerbtn{
+	color: $txt-white !important;
+	 background: $primary !important;
+}

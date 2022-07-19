@@ -1,0 +1,43 @@
+@import "../../../scss/variables.scss";
+.sbMain,
+.sbMainClr{
+    height:100%;
+    background-color: $primary!important;
+    padding:20px 0px;
+    .sbItem{
+        margin:7px 0px;
+        padding:8px 0;
+        background: #001C42;
+        border-radius: 0px;
+    }
+    .sbItem:hover,
+    .sbItem:active,
+    .sbItem:focus{
+        background: $border-clr;
+    }
+    .sbItemTxt{
+        font-weight: 400;
+        font-size: 28px;
+        color: $txt-white;
+        margin-left:30px;
+        // width:100%;
+        display:block;
+    }
+}
+@media(max-width:576px){
+    .sbMain{
+        background-color: transparent!important;
+        transition:ease-out background-color 0.3s;
+        padding:20px 0px;
+    }
+    .sbMainClr{
+        background-color: $primary!important;
+        padding:20px 0px;
+    }
+    .SidebarOpen{
+        height:241px;
+    }
+    .SidebarClose{
+        height:0px;
+    }
+}

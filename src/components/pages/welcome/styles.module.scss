@@ -1,0 +1,37 @@
+@import "../../../scss/variables.scss";
+.maindiv{
+    background:$mild-blue;
+    // height: 500px;
+    padding-bottom: 80px;
+    width: 100%;
+}
+.wel{
+padding-top: 100px;
+// font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 70px;
+line-height: 117px;
+text-align: center;
+color: $primary;
+}
+.best{   
+// font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 30px;
+text-align: center;
+color: $mainly-blue
+}
+.mercurysols{   
+// font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-align: center;
+    color: $mainly-blue
+    // margin: 35px 62px;
+}
