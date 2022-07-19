@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
 	siteMetadata: {
-		siteName: "VENRUP",
-		siteUrl: "https://venrup.com",
-		title: "UI/UX Design, Web & Mobile App Development Agency",
+		siteName: "MercurySols",
+		siteUrl: "https://mercurysols.com",
+		title: "UI/UX Design, Web & Mobile App Development Company",
 		tagline: "Venture for Disruption",
 		description:
 			"We are a premium web app development and mobile app development agency. Our development is user-centric and helps you scale your business fast.",

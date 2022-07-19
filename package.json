@@ -1,11 +1,11 @@
 {
-	"name": "venrup",
+	"name": "mercurysols",
 	"version": "1.0.0",
 	"private": true,
-	"description": "Venrup - Software Development Services",
-	"author": "VENRUP",
+	"description": "mercurysols - Software Development company",
+	"author": "MERCURYSOLS",
 	"keywords": [
-		"venrup"
+		"mercurysols"
 	],
 	"scripts": {
 		"develop": "gatsby develop",

@@ -11,7 +11,7 @@ import { Container, Nav, Navbar, Col, Row, Button } from "react-bootstrap"
 import "scss/main.scss"
 import { useEffect } from "react"
 
-const LayoutWrapper = ({ path,children }) => {
+const LayoutWrapper = ({ path,children,window,location }) => {
 	const [sideBarOpen, setSideBarOpen] = useState(true);
         function handleSideBarChange(newValue) {
 			setSideBarOpen(newValue);
